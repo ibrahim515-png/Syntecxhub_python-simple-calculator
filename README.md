@@ -1,73 +1,94 @@
 # 🧮 Python Simple Calculator
 
-A beginner-friendly command-line calculator built with Python to perform basic arithmetic operations. This project is part of my journey toward becoming a Python Developer through practical programming projects.
+A command-line calculator built with Python to perform basic arithmetic operations through an interactive interface.
+
+This project demonstrates practical Python programming concepts, including functions, conditional logic, loops, input validation, exception handling, and data structures.
 
 ## 🚀 Features
 
-* ➕ Addition
-* ➖ Subtraction
-* ✖️ Multiplication
-* ➗ Division
-* 🔄 Interactive user experience
-* 🛑 Option to exit the program
+- ➕ **Addition:** Perform addition operations.
+- ➖ **Subtraction:** Perform subtraction operations.
+- ✖️ **Multiplication:** Multiply two numbers.
+- ➗ **Division:** Divide two numbers with zero-division protection.
+- 🔄 **Continuous Calculations:** Perform multiple calculations without restarting the program.
+- 🛡️ **Input Validation:** Handle invalid numerical inputs and unsupported operations.
+- 📝 **Calculation History:** Store successful calculations in a list of dictionaries during the current session.
+- 🛑 **Exit Option:** Exit the program whenever needed.
 
-## 🛠️ Technologies Used
+## 🛠️ Technologies & Concepts
 
-* **Python 3**
-* **Conditional Statements**
-* **Loops**
-* **User Input and Output**
-* **Basic Arithmetic Operations**
+- **Language:** Python 3
+- **Functions:** Organizing arithmetic operations into reusable functions.
+- **Lists & Dictionaries:** Storing calculation records.
+- **Conditional Statements:** Controlling program execution.
+- **While Loops:** Supporting repeated calculations.
+- **Exception Handling:** Managing invalid inputs using `try-except`.
+- **Type Conversion:** Converting user input into floating-point numbers.
+- **Command-Line Interface (CLI):** Building an interactive terminal application.
+
+## ⚙️ Requirements
+
+- Python 3 installed on your computer.
+- No external libraries required.
 
 ## ▶️ How to Run
 
-### Prerequisites
+### 1. Clone the Repository
 
-* Python 3 installed on your computer.
+```bash
+git clone https://github.com/ibrahim515-png/Syntecxhub_python-simple-calculator.git
+```
 
-### Installation
+### 2. Navigate to the Project Directory
 
-1. Clone the repository:
+```bash
+cd Syntecxhub_python-simple-calculator
+```
 
-   ```bash
-   git clone https://github.com/ibrahim515-png/Syntecxhub_python-simple-calculator.git
-   ```
+### 3. Run the Program
 
-2. Navigate to the project directory:
+```bash
+python "Python Simple Calculator.py"
+```
 
-   ```bash
-   cd Syntecxhub_python-simple-calculator
-   ```
+Alternatively:
 
-3. Run the program:
+```bash
+python3 "Python Simple Calculator.py"
+```
 
-   ```bash
-   python python-simple-calculator.py
-   ```
+## 📌 Calculation History
 
-   Alternatively, use:
+The program uses a list named `calculation_history` to store successful calculations.
 
-   ```bash
-   python3 python-simple-calculator.py
-   ```
+Each calculation is represented by a dictionary containing:
+
+- First number.
+- Mathematical operator.
+- Second number.
+- Calculation result.
+
+The history is stored in memory and remains available only while the program is running.
 
 ## 🎯 Learning Objectives
 
-Through this project, I practiced:
+This project provided practical experience in:
 
-* Implementing basic arithmetic operations.
-* Working with user input and output.
-* Using conditional statements to control program behavior.
-* Applying loops to allow repeated calculations.
-* Improving logical thinking and problem-solving skills.
+- Writing reusable functions.
+- Implementing arithmetic operations.
+- Working with lists and dictionaries.
+- Applying conditional statements and loops.
+- Handling exceptions and validating user input.
+- Organizing program logic into functional sections.
+- Applying problem-solving skills to build a working application.
 
 ## 👨‍💻 Author
 
 **Ibrahim Salah Ibrahim Ahmed**
 
-* GitHub: [ibrahim515-png](https://github.com/ibrahim515-png)
-* LinkedIn: [Ibrahim Salah](https://www.linkedin.com/in/ibrahim-salah-tech)
+- GitHub: [ibrahim515-png](https://github.com/ibrahim515-png)
+- LinkedIn: [Ibrahim Salah](https://www.linkedin.com/in/ibrahim-salah-tech)
 
 ---
 
-⭐ This project represents another step in my journey toward becoming a Python Developer.
+*Built as part of my practical programming journey, focusing on applying Python fundamentals through real-world projects.*
